@@ -1042,9 +1042,9 @@ h1 {
   /* Mystery boxes mobile layout */
   .boxes-container {
     grid-template-columns: 1fr !important;
-    gap: 15px;
-    padding: 0 20px 20px 20px;
-    max-height: 60vh;
+    gap: 20px;
+    padding: 0 20px 25px 20px;
+    max-height: 55vh;
     overflow-y: auto;
     overflow-x: hidden;
   }
@@ -1055,30 +1055,30 @@ h1 {
   }
 
   .mystery-box {
-    height: 90px;
-    max-width: 90px;
+    height: 70px;
+    max-width: 70px;
     margin: 0 auto;
   }
 
   /* Keep box elements properly sized on mobile */
   .box-body {
     width: 100%;
-    height: 70px;
+    height: 52px;
   }
 
   .box-lid {
     width: 110%;
-    height: 20px;
-    top: 24px;
+    height: 16px;
+    top: 18px;
     left: -5%;
   }
 
   .box-ribbon-v {
-    width: 14px;
+    width: 10px;
   }
 
   .box-ribbon-h {
-    height: 14px;
+    height: 10px;
   }
 
   .box-sparkles span {
@@ -1086,16 +1086,16 @@ h1 {
   }
 
   .mystery-box:hover .box-lid {
-    top: 18px;
+    top: 14px;
   }
 
   .mystery-boxes {
     margin-top: 12px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
   }
 
   .mystery-box:last-child {
-    margin-bottom: 0;
+    margin-bottom: 5px;
   }
 
   .container {
