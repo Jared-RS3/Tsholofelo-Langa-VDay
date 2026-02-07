@@ -1042,21 +1042,21 @@ h1 {
   /* Mystery boxes mobile layout */
   .boxes-container {
     grid-template-columns: 1fr !important;
-    gap: 8px;
-    padding: 0 20px 15px 20px;
-    max-height: 50vh;
+    gap: 15px;
+    padding: 0 20px 20px 20px;
+    max-height: 60vh;
     overflow-y: auto;
     overflow-x: hidden;
   }
 
   .boxes-title {
     font-size: 1.2rem;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   .mystery-box {
-    height: 100px;
-    max-width: 100px;
+    height: 90px;
+    max-width: 90px;
     margin: 0 auto;
   }
 
